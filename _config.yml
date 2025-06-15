@@ -227,3 +227,16 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+#-----------------------------------------------------------------------------
+# Jekyll Plugins
+#-----------------------------------------------------------------------------
+
+# Define a list of plugins to load.
+# This will override the default plugins loaded by the theme.
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-include-cache
+  - jekyll-tabs
